@@ -22,19 +22,22 @@ A **herança** permite a reutilização de código ao definir uma relação entr
 ### 🔹 Polimorfismo
 O **polimorfismo** permite que um mesmo método tenha diferentes comportamentos dependendo do objeto que o chama. No projeto, implementamos métodos sobrescritos (`@Override`) e sobrecarga de métodos para demonstrar esse conceito.
 
-<!--
+
 ## 📁 Estrutura do Projeto
 ```
 📦 desafio-poo-dio
  ┣ 📂 src
- ┃ ┣ 📂 models  # Classes principais do sistema
- ┃ ┣ 📂 services # Lógica de negócio
- ┃ ┣ 📂 utils    # Métodos auxiliares
+ ┃ ┣ 📂 dominio # Classes principais do sistema
+      ┣  ⚙ Bootcamp
+      ┣ ⚙ Conteudo # abstract class
+      ┣  ⚙ Curso
+      ┣  ⚙ Dev
+      ┣  ⚙ Mentoria
  ┃ ┗ Main.java   # Execução do programa
  ┣ 📜 README.md  # Documentação do projeto
  ┣ 📜 pom.xml (caso utilize Maven)
 ```
--->
+
 ## 🚀 Como Executar
 1. Clone o repositório:
    ```sh
